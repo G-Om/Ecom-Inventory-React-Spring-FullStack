@@ -1,0 +1,45 @@
+Login
+Signup
+Home
+Cart
+Contact Us
+FeedBack
+Profile
+Cards
+	
+Order
+Payment
+Location(Delivery boy)
+BillTable
+
+
+Functionality:
+Filters
+
+
+
+
+Payment
+
+l [sbc,s,d,c]
+
+String a = "sdms"
+
+Tshirt tshirt1 
+
+Hats hat1;
+hat1.Head-size = 50
+//hat1.cupsize = 10
+hat1.prize = 1000
+
+
+
+Git Repo: https://github.com/G-Om/Ecommerce-Inventory-SpringBoot-React-Fullstack.git
+
+
+
+
+
+
+
+
