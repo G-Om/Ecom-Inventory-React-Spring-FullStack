@@ -60,7 +60,7 @@ export const TableComponent= (props)=>{
         if(!props.isUpdatePressed){
             if(props.attribute === "categories"){
                 return <td>{
-                    props.product[props.attribute].map(categories=>{
+                        props.product[props.attribute].map(categories=>{
                         // console.log(categories["category"])
                         return <div>{categories["category"]}</div>
                         })
@@ -103,10 +103,8 @@ export const TableComponent= (props)=>{
         ()=>{refreshProducts()},[]
     )
     return(
-        <div>
-            <h2>Table</h2><br/>
-            <button className="btn btn-success" onClick={()=>setisAddPressed(true)}>Add</button>
-            {isAddPressed && <button className="btn btn-normal" onClick={SubmitPressed}>Submit</button>}
+        <div className="container">
+            <h2 className="text-center">Table</h2><br/>
             <table className="table">
                 <thead>
                     <tr>
@@ -120,6 +118,7 @@ export const TableComponent= (props)=>{
                             return <th key={attribute}>{attribute}</th>
                         }
                         )}
+                        <button className="btn btn-success" onClick={()=>setisAddPressed(true)}>Add</button>
                     </tr>
                 </thead>
                 <tbody>
@@ -142,6 +141,7 @@ export const TableComponent= (props)=>{
                                                     </input></td>
                                                 })
                                             }
+                                            {isAddPressed && <button className="btn btn-normal" onClick={SubmitPressed}>Submit</button>}
                                         </tr>}
                                         
                     {products.map(
