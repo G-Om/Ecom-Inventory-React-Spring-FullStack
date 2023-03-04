@@ -52,10 +52,11 @@ export const SignupComponent = ()=>{
                             return <option value={option.value}>{option.label}</option>
                         })}
                        
-                    </select>         
+                    </select>  <i className="fas fa-lock"></i>         
                     <br/>
 
-                    <button className="btn btn-primary" type="submit">Sign Up</button>                  
+                    <button className="btn btn-primary" type="submit">Sign Up</button>
+                                    
                 </form>
             </div>
         </div>

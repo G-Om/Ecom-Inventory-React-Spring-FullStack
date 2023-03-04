@@ -37,9 +37,25 @@ hat1.prize = 1000
 Git Repo: https://github.com/G-Om/Ecommerce-Inventory-SpringBoot-React-Fullstack.git
 
 
+URLs: 
+1.get object: 
+	1.1 get user: users/user/{id}
+	1.2 get product: products/product/{id}
+	
+1. Users:
+	1.1 get user: users/{user_id}		(user)
+	1.2 post user: users/		(user)
+	1.3 put user: users/{user_id}		(user)
+	1.4 delete user: user/{user_id}	(user)
+	1.5 get all users: users/		(admin)
 
-
-
+2. Products:
+	1.1 get product: user/{user_id}/products/{product_id}
+	1.2 post product: users/{user_id}/products/
+	1.3 put product: users/{user_id}/products/{product_id}
+	1.4 delete product: user/{user_id}/products/{product_id}
+	1.5 get all products: users/{user_id}/products
+	1.6 get all products 
 
 
 

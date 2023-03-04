@@ -5,8 +5,11 @@ import { HomeComponent } from "./BasicComponents/Home"
 import { HeaderComponent } from "./BasicComponents/Header"
 import { FooterComponent } from "./BasicComponents/Footer"
 import { TableComponent } from "./BasicComponents/Table"
+import { LoginRegister } from "./BasicComponents/LoginRegster"
+import { CardComponent } from "./BasicComponents/Card"
 export const ApplicationComponent =()=>{
     return (
+
         <div>
             <HeaderComponent></HeaderComponent>
                 <Routes>
@@ -14,6 +17,8 @@ export const ApplicationComponent =()=>{
                     <Route path="/login" element={<LoginComponent></LoginComponent>} exact></Route>
                     <Route path="/signup" element={<SignupComponent></SignupComponent>} exact></Route>
                     <Route path="/table" element={<TableComponent></TableComponent>} exact></Route>
+                    <Route path="/loginreg" element={<LoginRegister></LoginRegister>} exact></Route>
+                    <Route path="/card" element={<CardComponent></CardComponent>} exact></Route>
                     {/* <LoginComponent/> */}
                 </Routes>
             <FooterComponent></FooterComponent>
