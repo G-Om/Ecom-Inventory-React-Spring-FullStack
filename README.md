@@ -24,4 +24,15 @@
 - Many to Many mapping is used to map product and category entity.<br/>
 </p>
 
-
+<h2>Login Page</h2>
+<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/6.png">
+<h2>Signup Page</h2>
+<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/Ecom5.png">
+<h2> Inventory Table<h2>
+<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/Ecom1.png">
+<h2>Footer<h2>
+<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/ecom2.png">
+<h2>Add new product</h2>
+<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/Ecom4.png">
+<h2>Sample Product Catd<h2>
+<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/Ecom4.png">
