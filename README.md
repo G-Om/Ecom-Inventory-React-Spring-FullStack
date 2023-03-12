@@ -25,7 +25,7 @@
 </p>
 
 <h2>Login Page</h2>
-<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/6.png">
+<img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/6.png" style="width=100%">
 <h2>Signup Page</h2>
 <img src="https://github.com/G-Om/ImagesAll/blob/main/EcomInventory/Ecom5.png">
 <h2> Inventory Table<h2>
